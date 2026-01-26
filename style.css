@@ -43,13 +43,14 @@ a:hover {
 
 .btn-cta {
   background-color: #FFBE00;
-  color: white;
+  color: #030609;
   padding: 15px 20px;
   border-radius: 4px;
+  display: inline-block;
+  transform: none;
 }
 
 .btn-cta:hover {
-  display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
@@ -63,7 +64,7 @@ a:hover {
 
 .btn-cta:hover, .btn-cta:focus, .btn-cta:active {
   background-color: #fe9a00;
-  color: white;
+  color: #030609;
 }
 
 .card {
