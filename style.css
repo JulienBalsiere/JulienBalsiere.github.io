@@ -29,19 +29,20 @@ h2 {
 .undertitle {
   font-family: 'Raleway', sans-serif;
   font-size: 30px;
+  color: white;
 }
 
 a {
   text-decoration: none;
-  color: #b08968;
+  color: #FFBE00;
 }
 
 a:hover {
-  color: #432818;
+  color: #fe9a00;
 }
 
-.btn-blue {
-  background-color: #b08968;
+.btn-cta {
+  background-color: #FFBE00;
   color: white;
   padding: 15px 20px;
   border-radius: 4px;
@@ -59,8 +60,9 @@ a:hover {
   -webkit-transition-property: color, background-color;
   transition-property: color, background-color;
 }
+
 .btn-blue:hover, .btn-blue:focus, .btn-blue:active {
-  background-color: #432818;
+  background-color: #fe9a00;
   color: white;
 }
 
@@ -94,6 +96,11 @@ a:hover {
   width: 500px;
   margin: auto;
 }
+
+.container p {
+  color: white;
+}
+
 
 @media (max-width: 960px) {
   .container {
