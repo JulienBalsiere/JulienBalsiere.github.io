@@ -34,7 +34,7 @@ h2 {
 
 a {
   text-decoration: none;
-  color: #FFBE00;
+  color: #030609;
 }
 
 a:hover {
@@ -48,7 +48,7 @@ a:hover {
   border-radius: 4px;
 }
 
-.btn-blue:hover {
+.btn-cta:hover {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -61,7 +61,7 @@ a:hover {
   transition-property: color, background-color;
 }
 
-.btn-blue:hover, .btn-blue:focus, .btn-blue:active {
+.btn-cta:hover, .btn-cta:focus, .btn-cta:active {
   background-color: #fe9a00;
   color: white;
 }
